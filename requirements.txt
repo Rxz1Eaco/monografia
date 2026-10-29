@@ -4,3 +4,4 @@ matplotlib
 streamlit 
 numpy
 plotly
+scipy
