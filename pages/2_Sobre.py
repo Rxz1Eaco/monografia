@@ -37,17 +37,17 @@ with p1:
     st.subheader("Análise Exploratória")
     st.write("Como os valores se distribuem, quanto poucos favorecidos concentram "
              "e quantos pagamentos cada um recebeu.")
-    st.page_link("pages/1_EDA.py", label="Abrir")
+    st.page_link("pages/3_EDA.py", label="Abrir")
 with p2:
     st.subheader("Lei de Benford")
     st.write("Compara a frequência dos dígitos dos valores com a esperada e mostra "
              "onde o desvio se concentra.")
-    st.page_link("pages/2_Benford.py", label="Abrir")
+    st.page_link("pages/4_Benford.py", label="Abrir")
 with p3:
     st.subheader("Isolation Forest")
     st.write("Pontua cada pagamento pelo valor e lista os registros e favorecidos "
              "mais atípicos.")
-    st.page_link("pages/3_Isolation_Forest.py", label="Abrir")
+    st.page_link("pages/5_Isolation_Forest.py", label="Abrir")
 
 st.divider()
 st.caption("Os resultados indicam onde priorizar a verificação. "
