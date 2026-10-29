@@ -1,7 +1,4 @@
 data
 notebooks
 pages/__pycache__
-pages/3_EDA.py
-pages/4_Benford.py
-pages/5_Isolation_Forest.py
 utils
