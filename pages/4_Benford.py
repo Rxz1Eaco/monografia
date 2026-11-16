@@ -23,8 +23,7 @@ st.markdown("""
 [data-testid="stMetricLabel"] {opacity: .65;}
 </style>""", unsafe_allow_html=True)
 
-COR_OBS, COR_ESP, COR_ALERTA = "#9AA7B5", "#1F2933", "#0DA7E4"
-
+COR_OBS, COR_ESP, COR_ALERTA = "#B8A58A", "#E8D3A2", "#C8792C"
 # ---------- Dados e filtros ----------
 df = base_dados().copy()
 df["valor"] = pd.to_numeric(df["valor"], errors="coerce")

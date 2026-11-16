@@ -1,0 +1,104 @@
+/* layout base para os cards */
+.card {
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    margin-bottom: 18px;
+    color: #0f172a;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.card h3 { 
+    margin: 0 0 8px 0; 
+    font-size: 22px; 
+    display:flex; 
+    align-items:center; 
+}
+.emoji { font-size: 30px; margin-right: 10px; }
+
+/* Lei de Benford (audit) */
+.benford {
+    background: linear-gradient(120deg, #fffaf0 0%, #fff5e1 50%, #fff8ec 100%);
+    border-left: 6px solid #f6a609;
+}
+.benford .tag {
+    display:inline-block;
+    font-weight:600;
+    background: rgba(246,166,9,0.12);
+    color:#8a4b00;
+    padding:4px 8px;
+    border-radius:8px;
+    font-size:13px;
+    margin-bottom:10px;
+}
+
+/* Machine Learning (tech) */
+.ml {
+    background: linear-gradient(120deg, #f0f8ff 0%, #eef9ff 50%, #f7fdff 100%);
+    border-left: 6px solid #1e88e5;
+}
+.ml .tag {
+    display:inline-block;
+    font-weight:600;
+    background: rgba(30,136,229,0.10);
+    color:#0b5fb1;
+    padding:4px 8px;
+    border-radius:8px;
+    font-size:13px;
+    margin-bottom:10px;
+}
+
+/* Combinação (insights) */
+.combo {
+    background: linear-gradient(120deg, #f4f0ff 0%, #f0edff 50%, #fbf7ff 100%);
+    border-left: 6px solid #7b3fe4;
+}
+.combo .tag {
+    display:inline-block;
+    font-weight:600;
+    background: rgba(123,63,228,0.10);
+    color:#4a1f9a;
+    padding:4px 8px;
+    border-radius:8px;
+    font-size:13px;
+    margin-bottom:10px;
+}
+
+/* lista estilizada */
+.card ul { padding-left:18px; margin-top:8px; }
+.card li { margin-bottom:6px; line-height:1.45; }
+
+/* responsividade */
+@media (max-width: 600px) {
+    .emoji { font-size: 26px; }
+    .card { padding:14px; }
+}
+/* ==============================
+   CARDS DE MÉTRICAS
+   ============================== */
+
+.metric-card {
+    background-color: #0e1117;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    border-left: 6px solid;
+}
+
+.metric-title {
+    font-size: 14px;
+    color: #b0b3b8;
+    margin-bottom: 6px;
+}
+
+.metric-value {
+    font-size: 34px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.metric-status {
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: 600;
+}
